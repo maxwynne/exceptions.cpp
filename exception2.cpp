@@ -1,7 +1,7 @@
 void f(Vector& v)
 {
     // ...
-    try { // exceptions here are handled by the handler defined below
+    try { // exceptions here are handled by the handler defined below. put code for handling exceptions into 'try blocks'
 
           v[v.size()] = 7; // if user attempts to access beyond the end of v
     }
